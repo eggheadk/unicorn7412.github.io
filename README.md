@@ -1,0 +1,1 @@
+<img src="./img/about/man.jpg" alt="">
