@@ -1,1 +1,2 @@
-<img src="./img/about/man.jpg" alt="">
+# Kenzo's portfolio
+
