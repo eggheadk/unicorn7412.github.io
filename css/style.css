@@ -1393,6 +1393,12 @@ h3 {
   z-index: 999;
 }
 
+.slider_area .social_links ul li a svg {
+  width: 60%;
+  height: 60%;
+  fill: #fefefe;
+}
+
 @media (max-width: 767px) {
   /* line 21, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
   .slider_area .single_slider .social_links {
@@ -1410,7 +1416,9 @@ h3 {
 .slider_area .single_slider .social_links li a {
   width: 40px;
   height: 40px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   line-height: 40px;
   text-align: center;
   -webkit-border-radius: 50%;
@@ -2538,7 +2546,9 @@ h3 {
   color: #fff;
   width: 40px;
   height: 40px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background: transparent;
   -webkit-border-radius: 50%;
@@ -2557,6 +2567,12 @@ h3 {
   color: #fff !important;
   background: #615CFD;
   border: 1px solid #615CFD;
+}
+
+.footer .socail_links ul li a svg {
+  width: 60%;
+  height: 60%;
+  fill: #fefefe;
 }
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_bradcam.scss */
